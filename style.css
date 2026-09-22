@@ -1,30 +1,78 @@
-/* Root typography settings */
-html{
-/*   set the following properties: 
-  font-size - this will be the base font size for the site
-  font-family - this will be the base font-family for the site
-  line-height - base line height, generally should be in the range 1.5-1.8 
-  color- primary text color for the site
-  background-color - primary background color for the site */
-
-  
+html {
+  font-size: 16px;
+  color: #252525;
+  background-color: #e9e4da;
 }
 
-/* General heading styles */
-/*set font styles for all of your headings, for example font-weight, line-height, font-family */
-h1, h2, h3, h4, h5, h6{
-  
+body {
+  max-width: 900px;
+  margin: 30px auto;
+  padding: 30px;
+  background-color: #fffdf8;
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
 }
 
-/* Specific element text styles */
-h1{
-  /*   this is the page title you may want to set the font-size and weight instead of relying on the default. */
+h1, h2, h3, h4, h5, h6 {
+  font-family: Georgia, serif;
+  line-height: 1.2;
 }
 
-h2{
-  /* secondary heading, also set font-size and weight (and others you may want)
+h1 {
+  font-size: 2.8rem;
+  margin: 45px 0 20px;
 }
 
-p{
-  margin-bottom: 1rem; /* optional but usually good to have a space between paragraphs */
+h2 {
+  font-size: 1.5rem;
+  margin-top: 35px;
+  padding-bottom: 6px;
+  border-bottom: 1px solid #999;
+}
+
+p {
+  margin-bottom: 1rem;
+}
+
+header {
+  padding-bottom: 18px;
+  border-bottom: 3px solid #252525;
+}
+
+.site-title {
+  font-family: Georgia, serif;
+  font-size: 1.8rem;
+  font-weight: bold;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  gap: 20px;
+  margin: 12px 0 0;
+  padding: 0;
+}
+
+nav a {
+  color: #252525;
+  text-decoration: none;
+  font-size: 0.9rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+}
+
+nav a:hover {
+  color: #252525;
+  text-decoration: underline;
+}
+
+a {
+  color: #70543d;
+}
+
+footer {
+  margin-top: 50px;
+  padding-top: 15px;
+  border-top: 1px solid #999;
+  font-size: 0.85rem;
 }
